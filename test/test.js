@@ -10,7 +10,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 //
-// Copyright © 2022, Kenneth Leung. All rights reserved.
+// Copyright © 2025, Kenneth Leung. All rights reserved.
 
 //;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 //original ideas and source from https://github.com/lhartikk/naivecoin
@@ -21,10 +21,10 @@
 const bodyParser =require( "body-parser");
 const express= require("express");
 
-const BC= require( "./blockchain");
-const P2P= require("./p2p");
-const TX= require("./tx");
-const WALL= require("./wallet");
+const BC= require( "../src/crypto/blockchain");
+const P2P= require("../src/crypto/p2p");
+const TX= require("../src/crypto/tx");
+const WALL= require("../src/crypto/wallet");
 
 //;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 const httpPort= parseInt(process.env.HTTP_PORT) || 3001;

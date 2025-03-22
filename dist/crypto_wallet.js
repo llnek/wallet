@@ -11,7 +11,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 //
-// Copyright © 2022, Kenneth Leung. All rights reserved.
+// Copyright © 2025, Kenneth Leung. All rights reserved.
 
 ;(function(gscope,UNDEF){
 
@@ -353,8 +353,7 @@
 
   //export--------------------------------------------------------------------
   if(typeof module == "object" && module.exports){
-    module.exports=_module(require("../main/core"),
-                           require("crypto-js"));
+    module.exports=_module(require("@czlab/mcfud")["Core"], require("crypto-js"))
   }else{
     gscope["io/czlab/mcfud/crypto/blockchain"]=_module
   }
@@ -375,7 +374,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 //
-// Copyright © 2022, Kenneth Leung. All rights reserved.
+// Copyright © 2025, Kenneth Leung. All rights reserved.
 
 ;(function(gscope,UNDEF){
 
@@ -719,7 +718,7 @@
 
   //export--------------------------------------------------------------------
   if(typeof module == "object" && module.exports){
-    module.exports=_module(require("../main/core"),
+    module.exports=_module(require("@czlab/mcfud")["Core"],
                            require("crypto-js"),
                            require("elliptic"))
   }else{
@@ -741,7 +740,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 //
-// Copyright © 2022, Kenneth Leung. All rights reserved.
+// Copyright © 2025, Kenneth Leung. All rights reserved.
 
 ;(function(gscope,UNDEF){
 
@@ -938,7 +937,7 @@
   }
   //export--------------------------------------------------------------------
   if(typeof module == "object" && module.exports){
-    module.exports=_module(require("../main/core"), require("ws"));
+    module.exports=_module(require("@czlab/mcfud")["Core"], require("ws"))
   }else{
   }
 
@@ -958,7 +957,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 //
-// Copyright © 2022, Kenneth Leung. All rights reserved.
+// Copyright © 2025, Kenneth Leung. All rights reserved.
 
 ;(function(gscope,UNDEF){
 
@@ -1100,7 +1099,7 @@
 
   //export--------------------------------------------------------------------
   if(typeof module == "object" && module.exports){
-    module.exports=_module(require("../main/core"),
+    module.exports=_module(require("@czlab/mcfud")["Core"],
                            require("crypto-js"),
                            require("elliptic"))
   }else{

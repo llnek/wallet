@@ -352,8 +352,7 @@
 
   //export--------------------------------------------------------------------
   if(typeof module == "object" && module.exports){
-    module.exports=_module(require("../main/core"),
-                           require("crypto-js"));
+    module.exports=_module(require("@czlab/mcfud")["Core"], require("crypto-js"))
   }else{
     gscope["io/czlab/mcfud/crypto/blockchain"]=_module
   }

@@ -207,7 +207,7 @@
   }
   //export--------------------------------------------------------------------
   if(typeof module == "object" && module.exports){
-    module.exports=_module(require("../main/core"), require("ws"));
+    module.exports=_module(require("@czlab/mcfud")["Core"], require("ws"))
   }else{
   }
 

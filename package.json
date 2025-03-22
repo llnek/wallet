@@ -1,8 +1,8 @@
 {
-  "name": "wallet",
-  "version": "1.0.0",
+  "name": "@czlab/wallet",
+  "version": "1.5.0",
   "description": "utilities",
-  "main": "index.js",
+  "main": "src/node_module.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,16 +17,17 @@
   },
   "homepage": "https://github.com/llnek/wallet#readme",
   "devDependencies": {
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
+    "gulp-cli": "^3.0.0",
     "gulp-concat": "^2.6.1",
     "gulp-jsdoc3": "^3.0.0",
     "gulp-notify": "^4.0.0",
     "gulp-rename": "^2.0.0",
-    "gulp-sourcemaps": "^2.6.5",
-    "gulp-terser": "^1.4.0",
-    "gulp-uglify": "^3.0.2"
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-terser": "^2.1.0"
   },
   "dependencies": {
+    "@czlab/mcfud": "^1.5.0",
     "body-parser": "^1.20.0",
     "colors": "^1.4.0",
     "crypto-js": "^4.1.1",
